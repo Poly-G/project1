@@ -1,0 +1,119 @@
+header, body {
+  font-family: "Anonymous Pro", sans-serif;
+  font-style: normal;
+  margin: 0 auto;
+  align-content: center;
+}
+
+body {
+  width: 65%;
+
+}
+
+header {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  padding: 2% 0 2% 0;
+}
+
+.name_title {
+  order: 2;
+  margin: 20px 0 0 auto;
+  padding: 20px;
+}
+
+img.logo {
+  order: 1;
+  border-radius: 5px;
+  border-style: dotted;
+  width: 75px;
+  height: 75px;
+  margin: 20px ;
+  padding: 20px;
+}
+
+div.logo {
+  margin: 0;
+}
+
+ a:link {
+  color: #358af2;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7d97ad;
+}
+
+a:hover {
+  color: #02b3e4;
+}
+
+.border {
+  border-top: 2px solid #7d97ad;
+}
+
+.first_img {
+   padding: 20px 0 0 0;
+   width: 100%;
+ }
+
+ .projects {
+   display: flex;
+   text-align: center;
+   align-items: center;
+   font-weight: bold;
+ }
+
+ .projimg {
+   width: 300px;
+   height: 300px;
+ }
+
+ .project1 {
+   order: 1;
+ }
+
+ .project2 {
+   order: 2;
+ }
+
+ .project3 {
+   order: 3;
+
+ }
+
+ .linkme {
+   margin: 20px 0 20px 0;
+ }
+
+ @media screen and (min-width: 920px) {
+  body, header, .first_img {
+    width: 900px
+  }
+}
+
+ @media screen and (max-width: 919px) {
+   header, body, img.first_img {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+  .border {
+    margin: 0 0 10px 0;
+    width: 100vw;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+ }
